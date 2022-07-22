@@ -8,6 +8,7 @@ function App() {
     const fetchPopMovies = async () => {
       const data = await fetch(URL);
       const movies = await data.json();
+      console.log(movies);
     };
   }catch(err){
     console.log(err)
