@@ -10,6 +10,8 @@ function App() {
       const movies = await data.json();
       console.log(movies);
     };
+
+    fetchPopMovies();
   }catch(err){
     console.log(err)
   };
