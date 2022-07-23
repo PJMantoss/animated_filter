@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Movie from './Movie';
 import './App.css';
 
 function App() {
@@ -17,7 +18,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div className=''>
+        {popular.map(movie => {
+          return <Movie />
+        })}
+      </div>
     </div>
   );
 }
