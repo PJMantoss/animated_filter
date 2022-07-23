@@ -12,6 +12,7 @@ function App() {
         const data = await fetch(URL);
         const movies = await data.json();
         console.log(movies.results);
+        setPopular(movies.results);
       };
     fetchPopMovies();
   }, [])
