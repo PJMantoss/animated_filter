@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <div className=''>
         {popular.map(movie => {
-          return <Movie />
+          return <Movie movie={movie} />
         })}
       </div>
     </div>
