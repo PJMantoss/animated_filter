@@ -18,9 +18,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className=''>
+      <div className='popularMovies'>
         {popular.map(movie => {
-          return <Movie movie={movie} />
+          return <Movie key={movie.id} movie={movie} />
         })}
       </div>
     </div>
