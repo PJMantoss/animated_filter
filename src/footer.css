@@ -3,18 +3,18 @@
     background: transparent;
     color: #000;
     text-align: center;
-    padding: 2em 0;
   }
   
   #love {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     margin-top: 15px;
   }
   
-  #love a {
-    color: rgb(9, 64, 216);
+  #love span a {
+    color: rgb(65, 98, 168);
     text-decoration: none;
   }
   
@@ -25,7 +25,8 @@
     color: #000;
   }
   
-  #love > img {
-    width: 30px;
-    padding: 0 6px 8px;
+  #love img {
+    width: 5%;
+    height: auto;
+    /* object-fit: cover; */
   }
