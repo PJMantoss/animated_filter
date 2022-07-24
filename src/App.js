@@ -35,9 +35,11 @@ function App() {
         layout
         className='popularMovies'
       >
-        {filtered.map(movie => {
-          return <Movie key={movie.id} movie={movie} />
-        })}
+        <AnimatePresence>
+          {filtered.map(movie => {
+            return <Movie key={movie.id} movie={movie} />
+          })}
+        </AnimatePresence>
       </motion.div>
       <Footer />
     </div>
