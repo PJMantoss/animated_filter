@@ -1,5 +1,6 @@
 {
   "name": "animated_filter",
+  "homepage": "https://pjmantoss.github.io/animated_filter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
