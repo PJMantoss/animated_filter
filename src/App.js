@@ -31,10 +31,7 @@ function App() {
         setActiveGenre={setActiveGenre}
       />
       <motion.div 
-        layout 
-        animate={{opacity: 1}}
-        initial={{opacity: 0}}
-        exit={{opacity: 1}}
+        layout
         className='popularMovies'
       >
         {filtered.map(movie => {
