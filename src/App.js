@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   const [popular, setPopular] = useState([]);
   const [filtered, setFiltered] = useState([]);
+  const [activeGenre, setActiveGenre] = useState(0);
 
   const URL = 'https://api.themoviedb.org/3/movie/popular?api_key=aa3f395118eda0937800db0cba5a6b63&language=en-US&page=1';
 
