@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 const Filter = () => {
   return (
@@ -10,4 +10,4 @@ const Filter = () => {
   )
 }
 
-export default Filter
+export default Filter;
