@@ -2,7 +2,12 @@ import React, { useEffect } from 'react';
 
 const Filter = ({activeGenre, setActiveGenre, setFiltered, popular}) => {
     
-    useEffect(() => {});
+    useEffect(() => {
+        if(activeGenre === 0){
+            setFiltered(popular);
+            return;
+        }
+    }, [activeGenre]);
 
   return (
     <div className='filterContainer'>
