@@ -1,4 +1,8 @@
-/* Sttyling for Movies Container */
+.App {
+  margin: 3% 5%;
+}
+
+/* Styling for Movies Container */
 .popularMovies{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
