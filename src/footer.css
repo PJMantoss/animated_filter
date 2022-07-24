@@ -8,6 +8,7 @@
   #love {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 15px;
   }
   
@@ -19,13 +20,14 @@
   #love > span {
     font-family: "Old Standard TT", serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     color: #000;
   }
   
   #love img {
     width: 2%;
     height: auto;
+    margin: 0 2px;
   }
 
   @media only screen and (max-width: 600px){
