@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animated_filter/static/css/main.f367cad7.css",
+    "main.js": "/animated_filter/static/js/main.ea375802.js",
+    "index.html": "/animated_filter/index.html",
+    "main.f367cad7.css.map": "/animated_filter/static/css/main.f367cad7.css.map",
+    "main.ea375802.js.map": "/animated_filter/static/js/main.ea375802.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f367cad7.css",
+    "static/js/main.ea375802.js"
+  ]
+}
