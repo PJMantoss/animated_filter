@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   const [popular, setPopular] = useState([]);
+  const [filtered, setFiltered] = useState([]);
 
   const URL = 'https://api.themoviedb.org/3/movie/popular?api_key=aa3f395118eda0937800db0cba5a6b63&language=en-US&page=1';
 
@@ -14,6 +15,7 @@ function App() {
         const movies = await data.json();
         console.log(movies.results);
         setPopular(movies.results);
+        setFiltered(movies.results);
       };
     fetchPopMovies();
   }, [])
