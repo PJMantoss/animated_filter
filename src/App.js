@@ -30,11 +30,11 @@ function App() {
         activeGenre={activeGenre}
         setActiveGenre={setActiveGenre}
       />
-      <div className='popularMovies'>
+      <motion.div layout className='popularMovies'>
         {filtered.map(movie => {
           return <Movie key={movie.id} movie={movie} />
         })}
-      </div>
+      </motion.div>
     </div>
   );
 }
