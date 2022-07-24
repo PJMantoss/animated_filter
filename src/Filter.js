@@ -4,7 +4,7 @@ const Filter = ({activeGenre, setActiveGenre, setFiltered, popular}) => {
   return (
     <div className='filterContainer'>
         <button 
-            onClick={() => {}} 
+            onClick={() => setActiveGenre(0)} 
             classname=''
         >
             All
