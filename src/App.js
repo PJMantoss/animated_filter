@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Movie from './Movie';
 import Filter from './Filter';
+import { motion } from 'framer-motion';
 import './App.css';
 
 function App() {
