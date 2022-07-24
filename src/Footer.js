@@ -4,8 +4,8 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className='footer'>
-        <p><strong>Beer App</strong></p>
-        <p>Copyright 2020</p>
+        <p><strong>Animated Filter</strong></p>
+        <p>&copy; 2022</p>
 
         <div id="love">
             <span>Made With</span>
