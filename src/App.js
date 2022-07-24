@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Movie from './Movie';
 import Filter from './Filter';
 import { motion } from 'framer-motion';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           return <Movie key={movie.id} movie={movie} />
         })}
       </motion.div>
+      <Footer />
     </div>
   );
 }
