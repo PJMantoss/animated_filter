@@ -5,7 +5,7 @@ const Movie = ({movie}) => {
   return (
     <motion.div 
       layout
-      animate={{opacity: 1}}
+      animate={{opacity: 1,scale:1}}
       initial={{opacity: 0}}
       exit={{opacity: 0}}
     >
