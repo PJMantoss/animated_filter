@@ -7,6 +7,10 @@ const Filter = ({activeGenre, setActiveGenre, setFiltered, popular}) => {
             setFiltered(popular);
             return;
         }
+
+        const filtered = popular.filter(movie => movie.genre_ids.includes(activeGenre));
+
+        setFiltered(filtered);
     }, [activeGenre]);
 
   return (
