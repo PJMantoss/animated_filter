@@ -22,7 +22,10 @@ function App() {
 
   return (
     <div className="App">
-      <Filter popular={popular} setFiltered={setFiltered} />
+      <Filter 
+        popular={popular} 
+        setFiltered={setFiltered} 
+      />
       <div className='popularMovies'>
         {popular.map(movie => {
           return <Movie key={movie.id} movie={movie} />
