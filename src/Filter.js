@@ -17,6 +17,7 @@ const Filter = ({activeGenre, setActiveGenre, setFiltered, popular}) => {
     <div className='filterContainer'>
         <button 
             onClick={() => setActiveGenre(0)}
+            className={activeGenre === 0 ? 'active' : 0}
         >
             All
         </button>
