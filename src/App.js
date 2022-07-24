@@ -26,6 +26,8 @@ function App() {
       <Filter 
         popular={popular} 
         setFiltered={setFiltered} 
+        activeGenre={activeGenre}
+        setActiveGenre={setActiveGenre}
       />
       <div className='popularMovies'>
         {popular.map(movie => {
