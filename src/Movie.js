@@ -5,9 +5,10 @@ const Movie = ({movie}) => {
   return (
     <motion.div 
       layout
-      animate={{opacity: 1, scale: 1}}
-      initial={{opacity: 0, scale: 0}}
-      exit={{opacity: 0, scale: 0}}
+      animate={{opacity: 1}}
+      initial={{opacity: 0}}
+      exit={{opacity: 0}}
+      exit={{duration: 0}}
     >
         <h2>{movie.title}</h2>
         <img 
