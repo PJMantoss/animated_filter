@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
     margin-top: 15px;
   }
   
@@ -26,6 +25,12 @@
   }
   
   #love img {
-    width: 5%;
+    width: 2%;
     height: auto;
+  }
+
+  @media only screen and (max-width: 600px){
+    #love img {
+        width: 5%;
+      }
   }
