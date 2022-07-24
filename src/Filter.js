@@ -23,26 +23,31 @@ const Filter = ({activeGenre, setActiveGenre, setFiltered, popular}) => {
         </button>
         <button 
             onClick={() => setActiveGenre(28)}
+            className={activeGenre === 28 ? 'active' : 0}
         >
             Action
         </button>
         <button 
             onClick={() => setActiveGenre(35)}
+            className={activeGenre === 35 ? 'active' : 0}
         >
             Comedy
         </button>
         <button 
             onClick={() => setActiveGenre(16)}
+            className={activeGenre === 16 ? 'active' : 0}
         >
             Animation
         </button>
         <button 
             onClick={() => setActiveGenre(80)}
+            className={activeGenre === 80 ? 'active' : 0}
         >
             Crime
         </button>
         <button 
             onClick={() => setActiveGenre(12)}
+            className={activeGenre === 12 ? 'active' : 0}
         >
             Adventure
         </button>
