@@ -1,41 +1,38 @@
 import React, { useEffect } from 'react';
 
 const Filter = ({activeGenre, setActiveGenre, setFiltered, popular}) => {
+    
+    useEffect(() => {});
+
   return (
     <div className='filterContainer'>
         <button 
-            onClick={() => setActiveGenre(0)} 
-            className=''
+            onClick={() => setActiveGenre(0)}
         >
             All
         </button>
         <button 
-            onClick={() => setActiveGenre(28)} 
-            className=''
+            onClick={() => setActiveGenre(28)}
         >
             Action
         </button>
         <button 
-            onClick={() => setActiveGenre(35)} 
-            className=''
+            onClick={() => setActiveGenre(35)}
         >
             Comedy
         </button>
         <button 
-            onClick={() => setActiveGenre(16)} 
-            className=''
+            onClick={() => setActiveGenre(16)}
         >
             Animation
         </button>
         <button 
-            onClick={() => setActiveGenre(80)} 
-            className=''
+            onClick={() => setActiveGenre(80)}
         >
             Crime
         </button>
         <button 
-            onClick={() => setActiveGenre(12)} 
-            className=''
+            onClick={() => setActiveGenre(12)}
         >
             Adventure
         </button>
