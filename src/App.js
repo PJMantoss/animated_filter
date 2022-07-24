@@ -20,7 +20,7 @@ function App() {
         setFiltered(movies.results);
       };
     fetchPopMovies();
-  }, [])
+  }, []);
 
   return (
     <div className="App">
