@@ -8,7 +8,7 @@ const Movie = ({movie}) => {
       animate={{opacity: 1}}
       initial={{opacity: 0}}
       exit={{opacity: 0}}
-      exit={{duration: 0.9}}
+      transition={{duration: 0.9}}
     >
         <h2>{movie.title}</h2>
         <img 
