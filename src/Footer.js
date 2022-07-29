@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <div className='footer'>
         <p>&copy; 2022 <strong>Animated Filter</strong></p>
-        <p></p>
 
         <div id="love">
             <span>Made With</span>
