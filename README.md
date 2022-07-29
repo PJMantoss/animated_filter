@@ -1,5 +1,5 @@
 # Animated Filter
-A simple animated filter built with React JS, Framer Motion and the TMDB API.
+An animated filter built with React JS, Framer Motion and the TMDB API.
 
 ## Dependencies
 - react-dom
